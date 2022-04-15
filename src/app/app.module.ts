@@ -14,7 +14,6 @@ import { LoginComponent } from './pages/login/login.component';
 import { JwtModule, JwtHelperService, JwtInterceptor } from '@auth0/angular-jwt';
 import { EditComponent } from './pages/edit/edit.component';
 import { ViewSurveyResultModule } from './pages/view-survey-result/view-survey-result.module';
-import { DataTablesModule } from "angular-datatables";
 
 export function jwtTokenGetter() 
 {
@@ -31,7 +30,6 @@ export function jwtTokenGetter()
     EditComponent,
   ],
   imports: [
-    DataTablesModule,
     BrowserModule,
     AppRoutingModule,
     SurveyModule,
@@ -40,7 +38,6 @@ export function jwtTokenGetter()
     ReactiveFormsModule,
     FormsModule,
     ViewSurveyResultModule,
-    DataTablesModule,
     JwtModule.forRoot({
       config: {
         tokenGetter: jwtTokenGetter
