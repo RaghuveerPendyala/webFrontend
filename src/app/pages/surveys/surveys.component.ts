@@ -17,7 +17,6 @@ export class SurveysComponent implements OnInit {
   displayName:String;
   activeSurveyList:Surveys[]=[];
   allSurveyList:Surveys[];
-  dtOptions:DataTables.Settings={};
 
   dtTrigger: Subject<any> = new Subject<any>();
 
