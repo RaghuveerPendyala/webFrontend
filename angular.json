@@ -59,8 +59,7 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/scripts/app.js",
-              "node_modules/datatables.net/js/jquery.dataTables.min.js"
+              "src/scripts/app.js"
             ]
           },
           "configurations": {
